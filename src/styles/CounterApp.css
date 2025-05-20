@@ -1,0 +1,94 @@
+/* Container geral */
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    max-width: 400px;
+    margin: auto;
+    border-radius: 10px;
+  }
+  
+  .counter-container {
+    display: flex;
+  }
+
+  /* Estilo do total */
+  .total {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+    font-weight: bold;
+  }
+  
+  /* Estilo do input do total */
+  input[type="text"] {
+    font-size: 1.2rem;
+    text-align: center;
+    width: 100px;
+    margin-bottom: 20px;
+    margin-left: 20px;
+    padding: 5px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #fff;
+  }
+  
+  /* Estilo dos contadores */
+  .counter {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 20px;
+    padding: 10px;
+    margin: 0 20px 20px 20px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  }
+  
+  .counter img {
+    width: 50px;
+    height: 50px;
+    margin-bottom: 10px;
+  }
+  
+  .buttons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+    margin-bottom: 10px;
+  }
+  
+  button {
+    font-size: 1.2rem;
+    padding: 5px 15px;
+    border: none;
+    background-color: #4CAF50;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  /* Estilo do nome do contador */
+  .counter div:last-child {
+    font-size: 1.2rem;
+    font-weight: bold;
+  }
+  
+  /* Estilo do botão de reset */
+  .reset {
+    font-size: 1.5rem;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+
+  .voltar {
+    width: 100%;
+  }
