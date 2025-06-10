@@ -2,7 +2,7 @@ import React from "react";
 
 function ResetButton({ onClick }) {
   return (
-    <button className="reset" onClick={onClick}>
+    <button className="reset button" onClick={onClick}>
       Reset
     </button>
   );

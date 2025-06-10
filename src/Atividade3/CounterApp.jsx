@@ -10,9 +10,9 @@ function Counter({ name, imageSrc, count, setCount }) {
     <div className="counter">
       <img src={imageSrc} alt={name} />
       <div className="buttons">
-        <button onClick={decrement}>−</button>
+        <button className="button" onClick={decrement}>−</button>
         <span>{count}</span>
-        <button onClick={increment}>+</button>
+        <button className="button" onClick={increment}>+</button>
       </div>
       <div>{name}</div>
     </div>
